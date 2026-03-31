@@ -157,6 +157,35 @@ title: "Название страницы"
 Нажмите :kbd[Ctrl] + :kbd[Shift] + :kbd[P]
 ```
 
+### SeeAlso — кросс-ссылки
+
+Блок «См. также» со списком ссылок.
+
+```mdx
+<SeeAlso>
+
+- [Правила сервера](/wiki/rules)
+- [Голосовой чат](/wiki/mods/voice)
+
+</SeeAlso>
+```
+
+### LinkCard / LinkCards — карточки навигации
+
+Алиас для SectionCards/SectionCard. Сетка карточек-ссылок.
+
+```mdx
+<LinkCards>
+
+<LinkCard href="/wiki/rules" title="Правила">
+
+Описание раздела.
+
+</LinkCard>
+
+</LinkCards>
+```
+
 ### figure / figcaption — изображение с подписью
 
 ```mdx
